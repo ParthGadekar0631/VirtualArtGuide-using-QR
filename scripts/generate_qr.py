@@ -16,6 +16,6 @@ def generate_qr_code(data, filename):
     print(f"QR code saved as {filename}")
 
 if __name__ == '__main__':
-    sample_data = "https://www.example.com"
+    sample_data = "https://www.example.com/portrait/1"
     output_file = "app/static/qr_codes/portrait1_qr.png"
     generate_qr_code(sample_data, output_file)
